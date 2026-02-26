@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma University Admissions</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <h2 class="logo">Sigma University</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>Shape Your Future at Sigma University</h1>
+      <p>Admissions Open 2026 – Apply Now</p>
+    </div>
+
+    <div class="form-box">
+      <h3>Enquire Now</h3>
+      <form id="leadForm">
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="tel" id="phone" placeholder="Phone Number">
+        <select id="course">
+          <option value="">Select Course</option>
+          <option>B.Tech</option>
+          <option>BBA</option>
+          <option>MBA</option>
+          <option>BCA</option>
+        </select>
+        <button type="submit">Submit</button>
+        <p class="error" id="errorMsg"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>About Sigma University</h2>
+    <p>Sigma University is committed to academic excellence, innovation, and global opportunities for students.</p>
+  </div>
+</section>
+
+<section id="courses" class="section bg-light">
+  <div class="container">
+    <h2>Our Popular Courses</h2>
+    <div class="cards">
+      <div class="card">B.Tech – Engineering Excellence</div>
+      <div class="card">BBA – Business Leadership</div>
+      <div class="card">MBA – Advanced Management</div>
+      <div class="card">BCA – Computer Applications</div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="container">
+    <p>© 2026 Sigma University | Admissions Department</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
